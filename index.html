@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros I La mejor página de Carros del Perú</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#hero">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#ultimos">Últimos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Top</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categoría
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#autos">Autos</a></li>
+                                <li><a class="dropdown-item" href="#suv">SUV's</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#pickup">PickUps</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Mini</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Modelo" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <section id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://siempreauto.com/wp-content/uploads/sites/9/2021/01/transformers-1210585_1280.jpg?quality=80&strip=all&w=1200"
+                        class="d-block w-100 opacity-50 " alt="Chevrolet Camaro"
+                        style="height: 100vh; object-fit: cover;" />
+                    <div class="carousel-caption d-none text-white d-md-block">
+                        <h5>CAMARO</h5>
+                        <p>Uno de los modelos más representativos y atractivos de la marca Chevrolet.</p>
+                        <div>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://cdni.autocarindia.com/utils/imageresizer.ashx?n=http://img.haymarketsac.in/autocarpro/IMG/619/9619/email-evq-12my-studio-140910-01.jpg&w=750&h=490&q=75&c=1"
+                        class="d-block w-100 opacity-50" alt="Dragon Ball" style="height: 100vh; object-fit: cover;" />
+                    <div class="carousel-caption d-none text-white d-md-block">
+                        <h5>RANGE ROVER</h5>
+                        <p>Hermoso ejemplar de la marca Jaguar Land Rover.</p>
+                        <div class="mb-2">
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://acnews.blob.core.windows.net/imgnews/medium/NAZ_a26ac35d349b47b587bdb9bb07704023.jpg"
+                        class="d-block w-100 opacity-50" alt="RAM TRX" style="height: 100vh; object-fit: cover;" />
+                    <div class="carousel-caption d-none text-white d-md-block">
+                        <h5>RAM 1500 TRX</h5>
+                        <p>Uno de los mejores modelos de la marca RAM.</p>
+                        <div>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section class="py-5" id="ultimos">
+            <div class="container d-flex flex-column gap-4">
+                <h2 class="text-center">Últimos Modelos</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://www.eleconomista.net/__export/1683566503038/sites/prensagrafica/img/2023/05/08/7icziepldjfhxhkuhlxhphdpjq_1.webp_525981578.webp"
+                                alt="walswagen polo" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Volkswagen Polo Track, el lanzamiento más importante de la marca alemana en los
+                                    próximos meses.
+                                </p>
+                                <div class="mt-auto d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://www.eleconomista.net/export/sites/prensagrafica/img/2023/05/08/5ah3jiz2hjhlrndqior4e4jvfa.jpg_1102185208.jpg"
+                                alt="montana" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Chevrolet Montana. Desarrollada sobre la plataforma GEM (Global Emerging Markets) de
+                                    la que nacieron también el Chevrolet Onix y el SUV Tracker, llegará para competir
+                                    con la Fiat Toro, Ford Maverick y Renault Oroch. Comparte componentes con el Tracker
+                                    así como el motor turbo 1.2 litros de 133CV. Se venderá con caja
+                                    automática de seis velocidades.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://www.eleconomista.net/export/sites/prensagrafica/img/2023/05/08/fff2nbf72nhi5mfbzsgecy7vbq.webp_1331887273.webp"
+                                alt="fiat pulse" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Fiat Pulse Abarth. la versión deportiva de su SUV chico lanzado en 2022. El Pulse
+                                    Abarth es el primer desarrollo de su tipo hecho en la región (en Brasil).
+                                    Detalles exclusivos en el interior y el exterior y motor turbo 1.3 de 175 CV (el
+                                    mismo que equipa a la pick up Toro y al Jeep Renegade) serán sus cartas de
+                                    presentación.
+                                </p>
+                                <div class="mt-auto d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://www.eleconomista.net/export/sites/prensagrafica/img/2023/05/08/lr4wiavlnbbepdsjyxvuwbukrq.jpeg_964580579.jpeg"
+                                alt="Ford Ranger" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Ford Ranger. La nueva generación de Ford Ranger se fabricará en la Argentina desde
+                                    el segundo semestre Ford
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://www.eleconomista.net/export/sites/prensagrafica/img/2023/05/08/h5ayyjdbwbaabew355ox5lasb4.jpg_960886495.jpg"
+                                alt="Honda ZR-V" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Honda ZR-V. Se ubicará entre el HR-V (del segmento B, chico) y el CR-V (segmento C,
+                                    mediano). Fabricado en México, el ZR-V llegará con motor naftero de 2 litros y 157
+                                    CV, caja automática CVT y un amplio despliegue de elementos de seguridad y confort.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/ferrari-purosangue-2-1663139117.jpg?crop=0.765xw:0.679xh;0.0270xw,0.247xh&resize=980:*"
+                                alt="Ferrari Purosangue" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">Ferrari Purosangue. el primer SUV de la casa de Maranello. Una
+                                    bestia con motor V12 que supondrá un punto de inflexión para la compañía pues nunca
+                                    antes se había atrevido a lanzar al mercado un producto como este.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/all-new-all-electric-jeep-avenger-1662663725.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=980:*"
+                                alt="Bleach" class="w-100 card-img-top d-block object-fit-cover" width="455"
+                                height="256" style="height: 256px;" />
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">
+                                    Jeep Avenger. El primer modelo con versión 100% eléctrica de la icónica marca
+                                    estadounidense se llama Jeep Avenger, un pequeño todocamino destinado solo a Europa
+                                    que se asienta sobre la plataforma CMP de los Opel Mokka y DS 3 Crossback
+                                    eléctricos. Ofrece unos 400 kilómetros de autonomía en la variante EV, aunque
+                                    también se ofrece con una mecánica de gasolina, presumiendo de una estética
+                                    puramente Jeep.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-body-secondary" id="top">
+            <div class="container d-flex flex-column gap-4">
+                <h2 class="text-center">Top Modelos</h2>
+                <div class="d-flex flex-column gap-3">
+                    <div class="row d-flex align-items-center shadow-sm">
+                        <div class="col-md-8 d-flex flex-column justify-content-center">
+                            <h3>Chevrolet Camaro</h3>
+                            <p>
+                                El Chevrolet Camaro es un automóvil deportivo de dos puertas, con motor delantero
+                                montado longitudinalmente y de tracción trasera,
+                                producido por el fabricante estadounidense Chevrolet, división de General Motors (GM)
+                                desde 1966.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://media.gq.com.mx/photos/647fbfc127429b28ca35ada7/16:9/w_2560%2Cc_limit/Chevrolet_Camaro_SS_Collectors_Edition.jpg"
+                                alt="Fullmetal Alchemist" width="455" height="256"
+                                class="img-fluid object-fit-cover border rounded" />
+                        </div>
+                    </div>
+                    <div class="row flex-md-row-reverse d-flex align-items-center shadow-sm">
+                        <div class="col-md-4">
+                            <img src="https://www.autonocion.com/wp-content/uploads/2020/06/Ford-Ranger-Raptor-por-TTN-Hypersport-20.jpg"
+                                alt="Gintama" width="455" height="256"
+                                class="img-fluid object-fit-cover border rounded" />
+                        </div>
+                        <div class="col-md-8 d-flex flex-column justify-content-center">
+                            <h3>Ford Raptor</h3>
+                            <p>
+                                La Raptor tiene motor EcoBoost® DOHC de 24 válvulas, 3.5 L, con enfriador de aire, doble
+                                turbocargador y de alta potencia
+                                con inyección directa y de combustible en puerto, además de transmisión automática de 10
+                                velocidades que genera unos impresionantes 450 HP y 510 lb pie de torsión.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center shadow-sm">
+                        <div class="col-md-8 d-flex flex-column justify-content-center">
+                            <h3>Ram TRX</h3>
+                            <p>
+                                La RAM 1500 TRX es la versión más potente y enfocada al alto desempeño que hayan creado.
+                                Lleva el famoso motor de los Dodge Hellcat bajo
+                                el cofre, que en esta pick-up entregará 702 hp y 650 lb-pie de par. Hará el 0-100 km/h
+                                en sólo 4.5 segundos y podrá resistir maltrato
+                                extremo en condiciones off-road.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://i0.wp.com/moparinsiders.com/wp-content/uploads/2022/08/2023-Ram-1500-TRX-Tyrant-37-Inch-Performance-Package.-Granger-Motors-21-scaled.jpg?fit=2560%2C1439&ssl=1"
+                                alt="Neon Genesis Evangelion" width="455" height="256"
+                                class="img-fluid object-fit-cover border rounded" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="categories">
+            <div class="container d-flex flex-column gap-4">
+                <h2 class="text-center">Categorías</h2>
+                <div class="row row-cols-1 row-cols-sm-2 g-3">
+                    <div class="col">
+                        <div class="card text-bg-dark" id="autos">
+                            <img src="https://static.latamautos.com/ghost/uploads/sites/8/2019/06/25220947/Blog_Collage_14_Junio_1.jpg"
+                                class="card-img opacity-50" alt="autos">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Autos</h5>
+                                <p class="card-text">Los autos se dividen en tres partes independientes: motor,
+                                    habitáculo y maletera. Esta característica hace que sea
+                                    el favorito de las familias, pues además de poder albergar entre 4 a 5 personas,
+                                    posee un baúl bastante espacioso para que cada uno guarde
+                                    lo necesario para sus viaje.</p>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark" id="suv">
+                            <img src="https://cdn.autoproyecto.com/wp-content/uploads/2019/01/BeFunky-collage-1.jpg"
+                                class="card-img opacity-50" alt="SUV">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">SUV's</h5>
+                                <p class="card-text">Los SUV pueden ofrecer más asientos. Además, muchos SUV modernos
+                                    tienen configuraciones de asientos
+                                    flexibles que permiten acomodar más pasajeros -lo que los convierte en vehículos
+                                    ideales para la familia- o aumentar el
+                                    espacio de carga según sea necesario.</p>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark" id="pickup">
+                            <img src="https://st1.uvnimg.com/26/ff/e1b047244c819a1599241e90059c/01-collage.jpg"
+                                class="card-img opacity-50" alt="Pickup">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">PickUps</h5>
+                                <p class="card-text">Los Pickup ofrecen un atractivo equipamiento para ser un vehículo
+                                    ideal para
+                                    un estilo de vida aventurero con la ventaja de que puedes cargar con las bicicletas
+                                    y sumergirte en terrenos difíciles.
+                                    Los pickup también se utilizan para trabajos pesados, transportes de cargas y largos
+                                    viajes </p>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4 border-top w-100">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2 rounded-circle"
+                            src="https://fuelcarmagazine.com/wp-content/uploads/2021/08/%C2%A9-Audi-696x365.jpg"
+                            alt="logo de autos" width="64" height="64" />
+                        <small class="d-block mb-3 text-body-secondary">Carros© 2023 Saul Carrion. All rights
+                            reserved. Made
+                            with ❤️ by Saul Carrion.</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a>
+                            </li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a>
+                            </li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
+                                    developers</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a>
+                            </li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a>
+                            </li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another
+                                    resource</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
